@@ -3,6 +3,10 @@
 
 This page shows how to install the NVIDIA drivers from the command line, using either the `ubuntu-drivers` tool (recommended), or APT.
 
+
+> **Warning**:
+> NVIDIA drivers installed from outside sources are not guaranteed to be compatible with those provided by ubuntu-drivers and may break secure boot. This includes those installed via the steps outlined in NVIDIA's CUDA installation guide.
+
 ## NVIDIA drivers releases
 
 We package two types of NVIDIA drivers:
