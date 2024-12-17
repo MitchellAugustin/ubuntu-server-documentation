@@ -33,6 +33,13 @@ The `ubuntu-drivers` tool is recommended if your computer uses Secure Boot, sinc
 
 Note that if you currently have a version of the Nvidia drivers installed that conflicts with those being installed by `ubuntu-drivers`, `ubuntu-drivers` will uninstall your original drivers before installing the new drivers.
 
+### Ensure your system and kernel is up-to-date
+
+```bash
+sudo apt update && sudo apt upgrade
+```
+After the update is complete, reboot your system.
+
 ### Check the available drivers for your hardware
 
 For desktop:
