@@ -185,7 +185,7 @@ sudo apt install nvidia-dkms-${DRIVER_BRANCH}${SERVER}
 
 Alternatively, you can use ubuntu-drivers to automatically select an appropriate dkms driver branch:
 ```bash
-sudo ubuntu-drivers --include-dkms install
+sudo ubuntu-drivers install --include-dkms
 ```
 
 ### Installing the user-space drivers and the driver libraries
